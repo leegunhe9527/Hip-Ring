@@ -1,15 +1,7 @@
-/*======================================
-    Variables
-========================================*/
-/*======================================
-    Normalize CSS
-========================================*/
-
-
 @font-face {
-  font-family: 'KBO-Dia-Gothic_bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
-  font-weight: 700;
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -31,7 +23,7 @@ line-height: 24px;
 }
 
 * {
-font-family: 'KBO-Dia-Gothic_bold';
+  font-family: 'ImcreSoojin';
 margin: 0;
 padding: 0;
 }
@@ -2221,17 +2213,17 @@ background-color: #f2f2f2;
 }
 
 .features .section-title {
-margin-bottom: 30px;
+margin-bottom: 10px;
 }
 
 .features .single-feature {
 text-align: left;
-padding: 35px;
-background-color: #fff;
+padding: 20px;
+background-color: #f2f2f2;
 border-radius: 6px;
 position: relative;
 margin-top: 30px;
-border: 1px solid #eee;
+border: 1px solid #000000;
 -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
@@ -2259,9 +2251,9 @@ margin-bottom: 30px;
 }
 
 .features .single-feature h3 {
-font-size: 18px;
+font-size: 25px;
 font-weight: 500;
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
 .features .single-feature p {
