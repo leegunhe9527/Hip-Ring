@@ -118,6 +118,17 @@
 
     
     
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+</html>
+
+<style>
+    /* 기존의 스타일 코드 그대로 유지 */
+</style>
+</head>
+<body>
+<footer class="bg-white dark:bg-gray-800">
     <footer class="bg-white dark:bg-gray-800">
         <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
             <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
@@ -139,7 +150,7 @@
                     <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">서비스</h3>
                     <ul class="text-gray-500 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">보안프로그램</a>
+                            <a href="https://github.com/ksustudios/ksu_double_locker" class="hover:underline">KSU 이중락커</a>
                         </li>
                         <li class="mb-4">
                             <a href="#" class="hover:underline">백신프로그램</a>
@@ -181,13 +192,14 @@
                     <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">다운로드</h3>
                     <ul class="text-gray-500 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Windows</a>
+                            <a href="https://github.com/ksustudios/ksu_double_locker" class="hover:underline">Windows</a>
                         </li>
                         <li class="mb-4">
                             <a href="#" class="hover:underline">MacOS</a>
                         </li>
                     </ul>
                 </div>
+                
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
             <div class="text-center">
@@ -196,8 +208,79 @@
                     KSU Studios    
                 </a>
                 <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023-2023 KSU Studios. All Rights Reserved.
-                
-    </footer>
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+            
+                    <style>
+                        .custom-button {
+                          display: inline-block;
+                        }
+                      
+                        .custom-button img {
+                          height: 160px;
+                          width: 170px;
+                          vertical-align: middle;
+                          margin-right: 6px;
+                        }
+                      
+                        .custom-button:hover {
+                          background-color: #ffffff; 
+                        }
+                      
+                        .modal {
+                          display: none;
+                          position: fixed;
+                          top: 0;
+                          left: 0;
+                          width: 100%;
+                          height: 100%;
+                          background-color: rgba(255, 255, 255, 0.5);
+                          z-index: 9999;
+                        }
+                      
+                        /* 모달 내용 스타일 */
+                        .modal-content {
+                          background-color: #fff;
+                          border-radius: 8px;
+                          max-width: 800px;
+                          margin: 20px auto;
+                          padding: 20px;
+                          text-align: center;
+                        }
+                      
+                        .modal-content table {
+                          margin: 0 auto;
+                        }
+                      </style>
+                      
+                      <div class="text-center">
+                        <a href="#" class="custom-button text-white font-semibold" onclick="openModal()">
+                          <img src="https://cdn.discordapp.com/attachments/1133303790108413952/1136257579853545613/-_-001_47.png" alt="버튼 이미지">
+                        </a>
+                      </div>
+                      
+                      <div class="modal" id="myModal" onclick="closeModal()">
+                        <div class="modal-content" onclick="event.stopPropagation();">
+                          <table>
+                            <tr>
+                              <td>해당 웹사이트 KSU Studios (https://ksustudios.kro.kr/)는 KSU Studios (https://ksustudios.kro.kr/)로부터 공식 인증을 받았습니다!</td>
+                              <td>인증일 2023.08.02 / 만료일 2023.12.31</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                      <script>
+                        function openModal() {
+                          document.getElementById("myModal").style.display = "block";
+                        }
+                      
+                        function closeModal() {
+                          document.getElementById("myModal").style.display = "none";
+                        }
+                      </script>
+                      
+                      
+</footer>
+
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 </body>
 </html>
